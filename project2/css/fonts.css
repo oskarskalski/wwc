@@ -1,0 +1,33 @@
+@font-face {
+    font-family: pacificoRegular;
+    src: url("../font/Pacifico-Regular.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Relaway;
+    src: url("../font/Raleway-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: RelawayExtraBold;
+    src: url("../font/Raleway-ExtraBold.ttf");
+}
+
+.list-element__link, .service-element__service-name, h2{
+    font-family: Relaway, serif;
+    font-weight: bold;
+}
+
+.website-information-container__heading {
+    font-family: RelawayExtraBold, serif;
+}
+
+.page-nav__brand-name, .page-footer__website-name {
+    font-family: pacificoRegular, serif;
+}
+
+body{
+    font-family: Relaway;
+    line-height: 1.6;
+}

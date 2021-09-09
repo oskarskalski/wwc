@@ -1,0 +1,60 @@
+@media only screen and (min-width: 1440px) {
+    .gallery-a-direction {
+        flex-direction: column;
+    }
+
+    .container, .page-header__website-information-container, .center-element-2 {
+        width: 60%;
+    }
+    .center-element{
+        width:40%;
+    }
+
+    .services-list__service-element{
+        width:100%;
+    }
+    .service-section__figure{
+        width:100%;
+    }
+    .gallery-vertical-direction {
+        flex-direction: row;
+    }
+
+    .blog-section__description, .blog-section__description{
+        width:50%;
+    }
+
+    .subscribe-section__heading{
+        font-size:50px !important;
+    }
+    .section-heading{
+        font-size:80px;
+    }
+    .gallery-a-direction > .gallery__gallery-image {
+        width: auto;
+    }
+
+    .gallery-section__gallery {
+        width: 100%;
+    }
+
+    .gallery-c-direction {
+        width: 67%;
+    }
+
+    .gallery-a-direction {
+        width: 33%;
+    }
+
+    .page-nav__nav-list {
+        width: auto;
+    }
+
+    .gallery-b-direction {
+        justify-content: space-between;
+    }
+
+    .gallery-b-direction .gallery__gallery-image {
+        width: 49%;
+    }
+}
